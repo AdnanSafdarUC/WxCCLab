@@ -95,27 +95,7 @@
     </footer>
 
     <!-- Put Chat Widget 1 Line Below -->
-    <div id="nimbus-interact"></div>
-
-<script
-  id="nimbus-bootstrap"
-  src="https://interact.de-01.luware.cloud/static/js/bootstrap.js"
-  publicUrl="https://interact.de-01.luware.cloud">
-</script>
-
-<script>
-  const interval = setInterval(() => {
-    if (window.Nimbus && window.Nimbus.isLoaded) {
-      window.Nimbus.Interact({
-        widgetKey: "eb198c809b654879806970aa343caa4d",
-        serviceId: "de57543f-9a1b-40af-bd03-832fc1b51d6c",
-        presenceSubscription: "signalR",
-        initialModality: "im"
-      });
-      clearInterval(interval);
-    }
-  }, 100);
-</script>
+    <div id="nimbus-interact"></div><script id="nimbus-bootstrap" src="https://interact.de-01.luware.cloud/static/js/bootstrap.js" publicUrl="https://interact.de-01.luware.cloud"></script><script>const interval=setInterval(()=>{if(window.Nimbus&&window.Nimbus.isLoaded){window.Nimbus.Interact({widgetKey:"eb198c809b654879806970aa343caa4d",serviceId:"de57543f-9a1b-40af-bd03-832fc1b51d6c",presenceSubscription:"signalR",initialModality:"im"});clearInterval(interval);}},100);</script>
     <!-- Chat Widget Above -->
   </body>
 </html>
